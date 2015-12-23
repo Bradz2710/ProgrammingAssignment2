@@ -1,6 +1,6 @@
 # > n <- matrix(rnorm(16), nrow = 4)          // Create a matrix N
 # > cn <- makeCacheMatrix(n)                  // Create our special matrix
-# > cx$get()                                  // Return the matrix
+# > cn$get()                                  // Return the matrix
 # > cacheSolve(cn)                            // Return the inverse
 # > cacheSolve(cn)                            // Call the 2nd time, so return
 #                                             // the cached inverse
